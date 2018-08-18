@@ -6,7 +6,7 @@ from textblob import TextBlob
 import quandl
 
 # note: you must get your own API key to use this code.
-quandl.ApiConfig.api_key = 'MuE3FqsDCcJ9-bDx-9Ex'
+quandl.ApiConfig.api_key = 'QUANDL_API_KEY'
 
 # gets the urls of the filing details for the past 100 10-Q reports
 def get_sec_ten_q_urls(ticker: str, amount=100):
