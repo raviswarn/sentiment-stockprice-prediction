@@ -5,6 +5,7 @@
 Firstly, you must set `quandl.ApiConfig.api_key` at the top of sentimental.py to your quandl API key. 
 
 You can get a key [here](https://www.quandl.com/tools/api).
+Github site [Here](https://swarnaravi.github.io/sentiment-stockprice-prediction/).
 ```
 from sentimental import generate_earnings_day_reports
 
